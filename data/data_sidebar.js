@@ -14,10 +14,10 @@ export const data_sidebar = [
     {
         id: 2,
         icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M3.5 18V7C3.5 3 4.5 2 8.5 2H15.5C19.5 2 20.5 3 20.5 7V17C20.5 17.14 20.5 17.28 20.49 17.42" stroke="#C81D25" strokewidth="1.5" strokelinecap="round" stroke-linejoin="round" />
-            <path d="M6.35 15H20.5V18.5C20.5 20.43 18.93 22 17 22H7C5.07 22 3.5 20.43 3.5 18.5V17.85C3.5 16.28 4.78 15 6.35 15Z" stroke="#C81D25" strokewidth="1.5" strokelinecap="round" strokelinejoin="round" />
-            <path d="M8 7H16" stroke="#C81D25" strokewidth="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M8 10.5H13" stroke="#C81D25" strokewidth="1.5" strokelinecap="round" stroke-linejoin="round" />
+            <path d="M3.5 18V7C3.5 3 4.5 2 8.5 2H15.5C19.5 2 20.5 3 20.5 7V17C20.5 17.14 20.5 17.28 20.49 17.42" stroke="#C81D25" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M6.35 15H20.5V18.5C20.5 20.43 18.93 22 17 22H7C5.07 22 3.5 20.43 3.5 18.5V17.85C3.5 16.28 4.78 15 6.35 15Z" stroke="#C81D25" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M8 7H16" stroke="#C81D25" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M8 10.5H13" stroke="#C81D25" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
         ,
         title: "Book Categories",
@@ -26,10 +26,10 @@ export const data_sidebar = [
     {
         id: 3,
         icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="#C81D25" strokewidth="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M15.5 9.75C16.3284 9.75 17 9.07843 17 8.25C17 7.42157 16.3284 6.75 15.5 6.75C14.6716 6.75 14 7.42157 14 8.25C14 9.07843 14.6716 9.75 15.5 9.75Z" stroke="#C81D25" strokewidth="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M8.5 9.75C9.32843 9.75 10 9.07843 10 8.25C10 7.42157 9.32843 6.75 8.5 6.75C7.67157 6.75 7 7.42157 7 8.25C7 9.07843 7.67157 9.75 8.5 9.75Z" stroke="#C81D25" strokewidth="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M8.4 13.3H15.6C16.1 13.3 16.5 13.7 16.5 14.2C16.5 16.69 14.49 18.7 12 18.7C9.51 18.7 7.5 16.69 7.5 14.2C7.5 13.7 7.9 13.3 8.4 13.3Z" stroke="#C81D25" strokewidth="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="#C81D25" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M15.5 9.75C16.3284 9.75 17 9.07843 17 8.25C17 7.42157 16.3284 6.75 15.5 6.75C14.6716 6.75 14 7.42157 14 8.25C14 9.07843 14.6716 9.75 15.5 9.75Z" stroke="#C81D25" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M8.5 9.75C9.32843 9.75 10 9.07843 10 8.25C10 7.42157 9.32843 6.75 8.5 6.75C7.67157 6.75 7 7.42157 7 8.25C7 9.07843 7.67157 9.75 8.5 9.75Z" stroke="#C81D25" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M8.4 13.3H15.6C16.1 13.3 16.5 13.7 16.5 14.2C16.5 16.69 14.49 18.7 12 18.7C9.51 18.7 7.5 16.69 7.5 14.2C7.5 13.7 7.9 13.3 8.4 13.3Z" stroke="#C81D25" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
         ,
         title: "Old-School Cartoons",
@@ -95,10 +95,10 @@ export const data_sidebar = [
     {
         id: 8,
         icon: <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M9 13C8.34 13.33 7.79 13.82 7.38 14.43C7.15 14.78 7.15 15.22 7.38 15.57C7.79 16.18 8.34 16.67 9 17" stroke="#C81D25" strokewidth="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M15.21 13C15.87 13.33 16.42 13.82 16.83 14.43C17.06 14.78 17.06 15.22 16.83 15.57C16.42 16.18 15.87 16.67 15.21 17" stroke="#C81D25" strokewidth="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="#C81D25" strokewidth="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M2.23 8.01L21.45 8" stroke="#C81D25" strokewidth="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M9 13C8.34 13.33 7.79 13.82 7.38 14.43C7.15 14.78 7.15 15.22 7.38 15.57C7.79 16.18 8.34 16.67 9 17" stroke="#C81D25" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M15.21 13C15.87 13.33 16.42 13.82 16.83 14.43C17.06 14.78 17.06 15.22 16.83 15.57C16.42 16.18 15.87 16.67 15.21 17" stroke="#C81D25" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="#C81D25" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M2.23 8.01L21.45 8" stroke="#C81D25" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
 
         ,
@@ -111,7 +111,7 @@ export const data_sidebar = [
             <path d="M9.03001 21.69L11.36 19.73C11.71 19.43 12.29 19.43 12.64 19.73L14.97 21.69C15.51 21.96 16.17 21.69 16.37 21.11L16.81 19.78C16.92 19.46 16.81 18.99 16.57 18.75L14.3 16.47C14.13 16.31 14 15.99 14 15.76V12.91C14 12.49 14.31 12.29 14.7 12.45L19.61 
             14.57C20.38 14.9 21.01 14.49 21.01 13.65V12.36C21.01 11.69 20.51 10.92 19.89 10.66L14.3 8.25001C14.14 8.18001 14 7.97001 14 7.79001V4.79001C14 3.85001 13.31 2.74001 12.47 2.31001C12.17 2.16001 11.82 2.16001 11.52 2.31001C10.68 2.74001 9.99001 3.86001 9.99001 4.80001V7.80001C9.99001 7.98001 
             9.85001 8.19001 9.69001 8.26001L4.11001 10.67C3.49001 10.92 2.99001 11.69 2.99001 12.36V13.65C2.99001 14.49 3.62001 14.9 4.39001 14.57L9.30001 12.45C9.68001 12.28 10 12.49 10 12.91V15.76C10 15.99 9.87001 16.31 9.71001 16.47L7.44001 18.75C7.20001 18.99 7.09001 19.45 7.20001
-             19.78L7.64001 21.11C7.82001 21.69 8.48001 21.97 9.03001 21.69Z" stroke="#C81D25" strokewidth="1.5" stroke-linecap="round" stroke-linejoin="round" />
+             19.78L7.64001 21.11C7.82001 21.69 8.48001 21.97 9.03001 21.69Z" stroke="#C81D25" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
         ,
         title: "Travel & Exploration",

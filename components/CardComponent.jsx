@@ -22,7 +22,7 @@ export default function CardComponent() {
 
                         {/* Text displayed on hover */}
                         <div className="absolute inset-0 flex justify-center items-center opacity-0 hover:opacity-100 transition-opacity duration-300">
-                            <span className="text-white font-bold text-xl">{option.text}</span>
+                            <span className="text-white font-bold text-4xl line-clamp-3 w-[50%]">{option.text}</span>
                         </div>
                         <div className="absolute w-auto h-6 bg-white ml-5 mt-3 rounded-2xl flex gap-1 pl-2 text-[#087E8B] font-bold pr-2">
                             <div className="mt-1">{option.icon}</div>

@@ -3,7 +3,7 @@ import Link from "next/link";
 export default  function CartoonCard (items){
 
     return(
-        <Link href={`/cartoondetail/${items.id}`}>
+        <Link href={`/cartoon/${items.id}`}>
         <div className=" w-[314px] h-[490px] flex flex-col gap-4  ">
             <div className =" rounded-2xl shadow-lg w-[314px] h-[398px]">
                <img src={items.image} className="bg-slate-500 rounded-2xl shadow-lg w-[314px] h-[398px]"></img>

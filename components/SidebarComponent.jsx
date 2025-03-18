@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation'
 const SidebarComponent = () => {
 
     const pathname= usePathname();
-    console.log(pathname);
+   
 
   return (
     <aside className="flex flex-col w-74 ">

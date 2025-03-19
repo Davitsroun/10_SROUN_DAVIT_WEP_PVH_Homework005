@@ -1,8 +1,15 @@
+"use client"
+
+import { useRouter } from "next/navigation"
+
 export default function Filter({filter}) {
-    
+    const router= useRouter();
+ 
     return (
         <>
             <select
+
+            onChange={e=> router.replace(`/old-school-cartoons?genre=${e.target.value}`)}
                 id="filterLearningMaterials"
                 name="filterLearningMaterials"
                 className=" text-sm  block w-60 p-4 focus:outline-none text-gray-500 border-none  bg-background-100"
@@ -11,8 +18,8 @@ export default function Filter({filter}) {
                     Filter By Category
                 </option>
                 <optgroup label="Chose Type Movies ">
-                    {filter.map((items,index)=>(
-                         <option  key={index} value="A-Z">{items}</option>
+                    {filter.payload.map((items,index)=>(
+                         <option  key={index} value={items.id}>{items.ct_title}</option>
                          
                     ))}
                    

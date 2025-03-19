@@ -1,11 +1,14 @@
 import CartoonCard from "@/components/CartoonCard";
 import Filter from "@/components/Filter";
-import { AllCartoon } from "@/service/AllCartoon";
+import { AllCartoon, AllCartoonCategories } from "@/service/AllCartoon";
 
 
-export default async function cartoon() {
-         const AllCartoons =await AllCartoon()
-        const filter =  [...new Set(AllCartoons.payload.map((items)=> items.ct_title))]
+export default async function cartoon({searchParams}) {
+
+    const queryId= (await searchParams).genre;
+         const AllCartoons =await AllCartoon(queryId)
+         const filter= await AllCartoonCategories();
+        
        
     return (
         <>

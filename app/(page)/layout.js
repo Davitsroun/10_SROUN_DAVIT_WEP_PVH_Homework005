@@ -2,6 +2,7 @@ import NavbarComponent from "@/components/NavbarComponent";
 import SidebarComponent from "@/components/SidebarComponent";
 
 export default function RootLayout({ children }) {
+  
     return (
       <>
           <div className="grid grid-cols-11 grid-flow-col gap-20 bg-gray-200 h-screen overflow-auto">

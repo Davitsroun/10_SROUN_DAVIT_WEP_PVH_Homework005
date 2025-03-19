@@ -2,17 +2,16 @@ import CardBookCategories from "@/components/CardBookCategories";
 
 import Filterbook from "@/components/Filterbook";
 import { allBook } from "@/service/Allbook";
+import { bookgategory } from "@/service/Bookegategories";
 
 
 export default async function AllBookCategories({searchParams}) {
+
+  const queryId= (await searchParams).query;
+
+  const bookData =await allBook(queryId);
+  const bookgategories = await bookgategory();
  
-  const bookData =await allBook();
-  const bookgategories= (await searchParams).book_author
-    
-
-
-  const filterbook=  [...new Set(bookData.payload.map((items)=> items.book_author))]
-
 
   return (
     <>
@@ -24,7 +23,7 @@ export default async function AllBookCategories({searchParams}) {
                 <button className="text-[#087E8B bg-[#F5F7F8] w-auto pl-5 pr-5 h-auto pt-4 pb-4 mb-3 text-text-100 font-bold rounded-2xl">All Books</button>
               </div>
               <div className="w-auto h-auto mr-10">
-                <Filterbook filterbook={filterbook}/>
+                <Filterbook filterbook={bookgategories.payload}/>
               </div>
             </div>
             <hr className="bg-[#087E8B] w-[95%] h-1  ml-10" />

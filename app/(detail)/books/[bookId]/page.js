@@ -51,7 +51,7 @@ export default async function ({ params }) {
                             <path d="M8.5 11.49H5.5" stroke="#C81D25" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
 
-                        <p className=" text-red-700" > How Do You Live?</p>
+                        <p className=" text-red-700" >{getBookById.payload.book_title}</p>
 
 
 

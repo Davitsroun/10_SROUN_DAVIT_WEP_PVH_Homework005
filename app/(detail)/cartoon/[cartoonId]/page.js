@@ -5,6 +5,7 @@ export default async function CartoonDetail({ params} ){
          const { cartoonId } = await params;
             const getcartoon  = await CartoonByid(cartoonId);
             
+            
 
 
     return(
@@ -54,7 +55,7 @@ export default async function CartoonDetail({ params} ){
                             <path d="M8.5 11.49H5.5" stroke="#C81D25" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
 
-                        <p className=" text-red-700" > How Do You Live?</p>
+                        <p className=" text-red-700" >{getcartoon.payload.ct_title}</p>
                     </div>
                     <div className="w-full h-[80%] bg-white rounded-3xl pt-[10%] pl-[5%] pr-[5%] overflow-auto">
 

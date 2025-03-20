@@ -8,7 +8,7 @@ export default function Filterbook({ filterbook }) {
     return (
         <>
             <select
-                onSubmit={e => router.replace(`/book-categogiries?query=${e.target.value}`)}
+                onChange={e => router.replace(`/book-categogiries?query=${e.target.value}`)}
                 id="filterLearningMaterials"
                 name="filterLearningMaterials"
                 className="text-sm block w-60 p-4 focus:outline-none text-gray-500 border-none bg-background-100"

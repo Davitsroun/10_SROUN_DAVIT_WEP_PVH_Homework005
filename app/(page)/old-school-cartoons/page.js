@@ -6,7 +6,9 @@ import { AllCartoon, AllCartoonCategories } from "@/service/AllCartoon";
 export default async function cartoon({searchParams}) {
 
     const queryId= (await searchParams).genre;
-         const AllCartoons =await AllCartoon(queryId)
+    const search= (await searchParams).search;
+    
+         const AllCartoons =await AllCartoon(queryId, search)
          const filter= await AllCartoonCategories();
         
        

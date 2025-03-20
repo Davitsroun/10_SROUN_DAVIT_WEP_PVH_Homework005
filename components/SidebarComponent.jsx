@@ -4,7 +4,6 @@ import { data_sidebar } from '../data/data_sidebar'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 const SidebarComponent = () => {
-
     const pathname= usePathname();
    
 

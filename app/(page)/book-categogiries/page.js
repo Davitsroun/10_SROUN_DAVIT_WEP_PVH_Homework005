@@ -8,9 +8,12 @@ import { bookgategory } from "@/service/Bookegategories";
 export default async function AllBookCategories({searchParams}) {
 
   const queryId= (await searchParams).query;
+  const search=( await searchParams).search;
+  console.log(search)
 
-  const bookData =await allBook(queryId);
+  const bookData =await allBook(queryId, search);
   const bookgategories = await bookgategory();
+  
  
 
   return (
